@@ -15,7 +15,7 @@ namespace TCPingInfoView.Model
 	[Serializable]
 	public class EndPointInfo : ViewModelBase, ICloneable
 	{
-		private EndPointInfo() : this(0) { }
+		public EndPointInfo() : this(0) { }
 
 		public EndPointInfo(int i)
 		{
