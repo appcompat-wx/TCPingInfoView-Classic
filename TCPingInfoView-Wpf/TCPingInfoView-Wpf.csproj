@@ -1,8 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
-  <PropertyGroup>
+  <PropertyGroup><TargetFramework>net11.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+
     <RootNamespace>TCPingInfoView</RootNamespace>
     <UseWPF>true</UseWPF>
     
